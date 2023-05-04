@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Merlin Swimminmg Enrollment Form
+    </title>
+
+    <script>
+        function validateForm(){
+
+            alert(document.getelementbyID("first"));
+
+            var name = document.getelementbyID("first").value();
+                
+            
+            alert(name);
+            if(name<=4){
+                alert("please provide your name!");
+                return false;
+            }
+        }
+            
+    
+
+    </script>
+
+    <style>
+        .big{
+            border :solid 1px;
+            border-color:#586c7c;
+            height:1100px;
+            width:1200px;
+            right:350px;
+            position:absolute;
+           left:70px;
+            background-color:#ced4d9;
+           
+            
+
+        }
+        .title{
+            background-color:#586c7c;
+            width:1160px;
+            height:60px;
+            color:white;
+            
+            line-height: .70em;
+            font-size: .75em;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 10px;
+            padding-left: 40px;
+            left:50px;
+            
+         
+           
+            
+        }
+        .body1{
+            position: relative;
+            color:rgb(36, 36, 36);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            left:50px;
+
+           
+            
+        }
+        .a input{
+          
+            position:absolute;
+            width:300px;
+            height:30px;
+            color:#586c7c;
+            top:20px;
+            left:5px
+          
+
+        }
+        .a label{
+           
+           
+            width:100px;
+            padding-left:10px;
+        }
+        .b label{
+            position: absolute;
+            top:0px;
+            left:350px;
+             
+
+        }
+        .b input{
+            position: absolute;
+            top:20px;
+            left:350px ;
+            width:300px;
+            height:30px;
+            color:#586c7c;
+            
+        }
+        .c label{
+            position: absolute;
+            top:0px;
+            left:680px;
+
+        }
+        .c select{
+            position: absolute;
+            top:20px;
+            left:680px ;
+            width:300px;
+            height:30px;
+            color:#586c7c;
+        }
+        .one{
+            font-size:1.25em;
+            top:10px;
+            position:relative;
+            left:50px;
+            
+           
+        }
+        .onea{
+        padding-top:40px;
+        position:relative;
+        left:50px;
+        
+        }
+        .t label{
+            padding-left:60px;
+            padding-bottom:25px;
+            width:100px; 
+            top:250px;
+            left:60px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .t select{
+            
+            position :absolute;
+            width:310px;
+            height:35px;
+           top:270px;
+           left:60px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .e label{
+            position :absolute;
+           top:250px;
+           left:410px;
+           width:400px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .e input{
+            position :absolute;
+           top:270px;
+           left:410px;
+           width:300px;
+           height:30px;
+
+        }
+        .f label{
+           position :absolute;
+           top:250px;
+           left:740px;
+           width:400px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+        }
+        .f select{
+            position:absolute;
+            top:270px;
+            left:740px;
+            width:300px;
+            height:30px;
+           
+            
+        }
+        .oneb{
+            padding-top:40px;
+            position:relative;
+            left:50px
+
+        }
+        .g label{
+            position:absolute;
+            width:100px;
+            top:370px;
+            left:60px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .g input{
+            position:absolute;
+            top:400px;
+            left:60px;
+            width:300px;
+            height:30px;
+        }
+        .h label{
+           position:absolute;
+           top:370px;
+           left:410px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .h input{
+            position:absolute;
+            top:400px;
+            left:410px;
+            width:300px;
+            height:30px;
+        }
+        .i label{
+            position:absolute;
+            top:370px;
+            left:740px;
+            width:300px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .i input{
+           position:absolute;
+           top:400px;
+           left:740px;
+           width:300px;
+           height:30px;
+
+        }
+        .j label{
+          position:absolute;
+          top:450px;
+          left:60px;
+          width:300px;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+        }
+        .j input{
+            position:absolute;
+            width:300px;
+            height:30px;
+            top:470px;
+            left:60px;
+
+        }
+        .k label{
+            position:absolute;
+            width:300px;
+            top:450px;
+            left:410px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            
+ 
+        }
+        .k input{
+            position:absolute;
+            width:300px;
+            height:30px;
+            top:470px;
+            left:410px;
+             
+
+        }
+        .l label{
+            position:absolute;
+           
+            height:30px;
+            top:450px;
+            left:740px;
+            width:300px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .l input{
+            position:absolute;
+            width:300px;
+            height:30px;
+            top:470px;
+            left:740px;
+
+        }
+       
+        .onec{
+            position:absolute;
+            top:60px;
+            width:350px;
+            left:10px;
+        }
+        .m label{
+            position:absolute;
+            width:300px;
+         
+            bottom:-140px;
+            left:10px;
+
+        }
+        .m input{
+            position:absolute;
+            width:300px;
+           left:10px;
+            bottom:-180px;
+            height:30px;
+           
+           
+
+        }
+        .n label{
+            position:absolute;
+            bottom:-140px;
+            left:360px;
+            width:300px;
+        }
+        .n input{
+            position:absolute;
+            bottom:-180px;
+            left:360px;
+            width:300px;
+            height:30px;
+        }
+        .o label{
+            position:absolute;
+            bottom:-140px;
+            left:690px;
+            width:250px;
+        }
+        .o input{
+            position:absolute;
+            bottom:-180px;
+            left:690px;
+            width:300px;
+            height:30px;
+        }
+        .p label{
+            position:absolute;
+            bottom:-200px;
+            left:10px;
+            width:300px; 
+        }
+        .p select{
+            position:absolute;
+            bottom:-240px;
+            left:10px;
+            width:300px;
+            height:30px;
+            
+        }
+            
+       
+        .oned{
+            position:absolute;
+            bottom:-280px;
+            left:10px;
+            margin-bottom: 10px;
+            width:350px;
+        }
+        .q label{
+            position:absolute;
+            bottom:-350px;
+            left:10px;
+            width:250px;
+           
+            
+        }
+        .q select{
+            position:absolute;
+            bottom:-380px;
+            left:10px;
+            width:250px;
+            height: 30px;
+        }
+        .r label{
+            position:absolute;
+            bottom:-350px;
+            left:360px;
+            width:250px;
+
+        }
+        .r select{
+           position:absolute;
+           bottom:-380px;
+           left:360px;
+           width:250px;
+           height:30px;
+        }
+        .onea,.oneb,.onec,.oned,.one{
+            font-size:1.25em;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .bottom{
+            padding-top:10px;
+            position:absolute;
+            top:470px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            left:50px;
+           
+
+        }
+        .footer{
+            padding-top: 10px;
+            position:absolute;
+            top:500px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            left:50px;
+            
+        }
+        .star{
+            color:red;
+        }
+        .submit{
+            position:absolute;
+            top:1000px;
+            left:1000px;
+            background-color: lightyellow;
+            width:180px;
+            height:50px;
+            font-size: large;
+            color:#586c7c;
+            
+            border-style: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+        
+        
+        
+        
+       
+    
+    </style>
+    <body>
+
+    
+    <div class="big">
+      <div class="firstsec">
+       <div class="title"> <h1>You're registering a new participant. </h1></div>
+       <form name="myForms">
+        <h2 class="one"> Participant Information</h2>
+        <div class="body1">
+         
+        <div class="a">
+           <label for="first" id="name">First Name<sup class="star">*</sup></label>
+       
+           <input type="text" id="first" value="name"  onfocus= "this.value=''" onclick="validateForm();" >
+
+        
+           
+        </div>
+        <div class="b">
+           <label for="last" id="name">Last Name<sup class="star">*</sup></label>
+       
+           <input type="text" id="last" value="last-name" onfocus= "this.value=''">
+        </div>
+        <div class="c">
+           
+           <label for="gender" id="g">Gender</label>
+        
+           <select id="gender" name="gender">
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+           </select>
+        </div>
+        
+        </div>
+      </div>
+     <div class="secondsec">
+        <h3 class="onea">School Information</h3>
+        <div class="t">
+
+            <label for="grade" id="ed">Grade</label>
+
+            <select id="grade">
+                <option value="ed">K</option>
+                <option value="ed">first</option>
+                <option value="ed">second</option>
+                <option value="ed">third</option>
+                <option value="ed">fourth</option>
+                <option value="ed">fifth</option>
+            </select>
+        </div>
+
+         <div class="e">
+            <label for="teacher" id="name">Homeroom Teacher</label>
+           <input type="text" id="teacher">
+         </div>
+         <div class="f">
+           <label for="kids" id="ke">Enrolled in Legacy Kids Care</label>
+           <select id="kids">
+            <option value="ke">Yes</option>
+            <option value="ke">No</option>
+           </select>
+         </div>
+        </div>
+
+
+        <div class="middle">
+         <h4 class="oneb">Parent/Guardian Information</h4>
+         <div class="g">
+           <label for="first" id="name">First Name</label>
+           <input type="text" id="first" value="First-name" onfocus= "this.value=''">
+         </div>
+         <div class="h">
+           <label for="last" id="name">Last Name</label>
+           <input type="text" id="last" value="last-name" onfocus= "this.value=''">
+         </div>
+         <div class="i">
+           <label for="email" id="e">Email address #1</label>
+           <input type="text" id="email" >
+         </div>
+         <div class="j">
+           <label for="email" id="n">Email address #2</label>
+           <input type="text" id="email" >
+         </div>
+         <div class="k">
+           <label for="phone" id="a">Primary phone</label>
+           <input type="text" id="phone">
+         </div>
+         <div class="l">
+           <label for="phone" id="name">Alternate phone</label>
+           <input type="text" id="phone">
+         </div>
+        </div>
+        <div class="bottom">
+         <h5 class="onec">Emergency Contact Information</h5>
+         <div class="m">
+          <label for="first" id="name">First Name</label>
+          <input type="text" id="first" value="First-name" onfocus= "this.value=''">
+          </div>
+         <div class="n">
+          <label for="last" id="name">Last Name</label>
+          <input type="text" id="last" value="last-name" onfocus= "this.value=''" >
+         </div>
+         <div class="o">
+          <label for="phone" id="a">Primary phone</label>
+          <input type="text" id="phone" >
+          </div>
+         <div class="p">
+          <label for ="relation" id="re">Relationship</label>
+          <Select id="relation">
+              <option value="re">Father</option>
+              <option value="re">Guardian</option>
+              <option value="re">Brother</option>
+              <option value="re">Sister</option>
+              <option value="re">Grandfather</option>
+              <option value="re">Grandmother</option>
+              <option value="re">Freind/Neighbour</option>
+              <option value="re">Nanny</option>
+               <option value="re">other</option>
+              
+          </Select>
+         </div>
+         
+        </div>
+        <div class="footer">
+
+        <h6 class="oned"> Medical Information</h6>
+         <div class="q">
+           <label for="need"> Do you have a medical condition and special needs?</label>
+           <select id="need">
+            <option value="n">Yes</option>
+            <option value="n">No</option>
+           </select>
+         </div>
+         <div class="r">
+           <label for="allergy"> Do you have allergies and dietary restrictions?</label>
+           <select id="allergy">
+            <option value="n">Yes</option>
+            <option value="n">No</option>
+           </select>
+         </div>
+        </div>
+
+    
+
+        </form>
+          
+       </div>
+       <div>
+        <button class="submit"> Submit </button>
+        
+     
+       </div>   
+
+    </body>
+</html>
